@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-School-Administration"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-School-Administration?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-School-Administration"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-School-Administration?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-School-Administration/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-School-Administration?style=social" alt="GitHub forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-School-Administration/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-School-Administration" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -49,34 +49,34 @@ A comprehensive, SEO-optimized guide tracking modern **Student Information Syste
 
 > 🌟 **Self-Hosted & Community-Driven Systems**: Mature open-source alternatives providing complete privacy, source code ownership, and customizable database schemas for institutions worldwide.
 
-- **[Moodle](https://github.com/moodle/moodle)** [![GitHub stars](https://img.shields.io/github/stars/moodle/moodle?style=social)](https://github.com/moodle/moodle/stargazers)  
+- **[Moodle](https://github.com/moodle/moodle)** [![GitHub_Stars](https://img.shields.io/github/stars/moodle/moodle?style=social)](https://github.com/moodle/moodle/stargazers)  
   World's most widely deployed open-source Learning Management System (LMS) and student portal ecosystem (PHP). Frequently paired with open-source SIS backends.
 
-- **[School Management System (PHP/Laravel)](https://github.com/hrshadhin/school-management-system)** [![GitHub stars](https://img.shields.io/github/stars/hrshadhin/school-management-system?style=social)](https://github.com/hrshadhin/school-management-system/stargazers)  
+- **[School Management System (PHP/Laravel)](https://github.com/hrshadhin/school-management-system)** [![GitHub_Stars](https://img.shields.io/github/stars/hrshadhin/school-management-system?style=social)](https://github.com/hrshadhin/school-management-system/stargazers)  
   Feature-rich open-source school management system built with Laravel covering multi-user roles, fee management, exam scheduling, and class attendance.
 
-- **[OpenEduCat ERP](https://github.com/openeducat/openeducat_erp)** [![GitHub stars](https://img.shields.io/github/stars/openeducat/openeducat_erp?style=social)](https://github.com/openeducat/openeducat_erp/stargazers)  
+- **[OpenEduCat ERP](https://github.com/openeducat/openeducat_erp)** [![GitHub_Stars](https://img.shields.io/github/stars/openeducat/openeducat_erp?style=social)](https://github.com/openeducat/openeducat_erp/stargazers)  
   Comprehensive open-source enterprise ERP (LGPL) built on Python/Odoo with 70+ modules covering SIS, LMS, accounting, HR, timetabling, and parent portals.
 
-- **[MERN School Management System](https://github.com/Yogndrr/MERN-School-Management-System)** [![GitHub stars](https://img.shields.io/github/stars/Yogndrr/MERN-School-Management-System?style=social)](https://github.com/Yogndrr/MERN-School-Management-System/stargazers)  
+- **[MERN School Management System](https://github.com/Yogndrr/MERN-School-Management-System)** [![GitHub_Stars](https://img.shields.io/github/stars/Yogndrr/MERN-School-Management-System?style=social)](https://github.com/Yogndrr/MERN-School-Management-System/stargazers)  
   Modern full-stack JavaScript school management platform built on React, Node.js, Express, and MongoDB for student & teacher dashboards.
 
-- **[RosarioSIS](https://github.com/francoisjacquet/RosarioSIS)** [![GitHub stars](https://img.shields.io/github/stars/francoisjacquet/RosarioSIS?style=social)](https://github.com/francoisjacquet/RosarioSIS/stargazers)  
+- **[RosarioSIS](https://github.com/francoisjacquet/RosarioSIS)** [![GitHub_Stars](https://img.shields.io/github/stars/francoisjacquet/RosarioSIS?style=social)](https://github.com/francoisjacquet/RosarioSIS/stargazers)  
   Open-source Web-based Student Information System (PHP/PostgreSQL) with modules for gradebooks, attendance, discipline, billing, and U.S. state reporting.
 
-- **[Gibbon Core](https://github.com/GibbonEdu/core)** [![GitHub stars](https://img.shields.io/github/stars/GibbonEdu/core?style=social)](https://github.com/GibbonEdu/core/stargazers)  
+- **[Gibbon Core](https://github.com/GibbonEdu/core)** [![GitHub_Stars](https://img.shields.io/github/stars/GibbonEdu/core?style=social)](https://github.com/GibbonEdu/core/stargazers)  
   Flexible, actively maintained open-source school management platform (PHP) designed for teachers, students, parents, and leaders with strong curriculum timetabling.
 
-- **[Frappe Education](https://github.com/frappe/education)** [![GitHub stars](https://img.shields.io/github/stars/frappe/education?style=social)](https://github.com/frappe/education/stargazers)  
+- **[Frappe Education](https://github.com/frappe/education)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/education?style=social)](https://github.com/frappe/education/stargazers)  
   Open-source school and university management system built on the Frappe Framework and ERPNext covering student records, admissions, fees, and courses.
 
-- **[Django School Management](https://github.com/TareqMonwer/Django-School-Management)** [![GitHub stars](https://img.shields.io/github/stars/TareqMonwer/Django-School-Management?style=social)](https://github.com/TareqMonwer/Django-School-Management/stargazers)  
+- **[Django School Management](https://github.com/TareqMonwer/Django-School-Management)** [![GitHub_Stars](https://img.shields.io/github/stars/TareqMonwer/Django-School-Management?style=social)](https://github.com/TareqMonwer/Django-School-Management/stargazers)  
   Clean Python/Django open-source school management portal handling student enrollment, teacher grading, attendance, and administrative reports.
 
-- **[Fedena Classic](https://github.com/projectfedena/fedena)** [![GitHub stars](https://img.shields.io/github/stars/projectfedena/fedena?style=social)](https://github.com/projectfedena/fedena/stargazers)  
+- **[Fedena Classic](https://github.com/projectfedena/fedena)** [![GitHub_Stars](https://img.shields.io/github/stars/projectfedena/fedena?style=social)](https://github.com/projectfedena/fedena/stargazers)  
   Classic open-source school management system built on Ruby on Rails that pioneered free SIS platforms; community edition remains active alongside commercial tiers.
 
-- **[openSIS Classic](https://github.com/OS4ED/openSIS-Classic)** [![GitHub stars](https://img.shields.io/github/stars/OS4ED/openSIS-Classic?style=social)](https://github.com/OS4ED/openSIS-Classic/stargazers)  
+- **[openSIS Classic](https://github.com/OS4ED/openSIS-Classic)** [![GitHub_Stars](https://img.shields.io/github/stars/OS4ED/openSIS-Classic?style=social)](https://github.com/OS4ED/openSIS-Classic/stargazers)  
   Long-standing commercial-grade open-source SIS foundation (PHP/MySQL) powering K-12 schools and higher-ed institutions with attendance, transcript, and grade management.
 
 ---
