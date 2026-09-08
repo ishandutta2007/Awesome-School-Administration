@@ -42,53 +42,17 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[PowerSchool](https://www.powerschool.com/)**  
-
-  Leading K-12 student information system widely used by large districts for enrollment, scheduling, grades, state reporting, and analytics.
-
-
-
-- **[FACTS](https://factsmgt.com/)**  
-
-  Comprehensive private and faith-based K-12 platform covering SIS, tuition management, admissions, and family engagement.
-
-
-
-- **[Blackbaud K-12 / Education Management](https://www.blackbaud.com/)**  
-
-  Cloud suite for private K-12 schools spanning academics, enrollment, tuition, advancement, and school operations.
-
-
-
-- **[Teachmint](https://www.teachmint.com/)**  
-
-  Mobile-first school and coaching-center platform with free tier options, classroom tools, and growing administrative features.
-
-
-
-- **[Classter](https://www.classter.com/)**  
-
-  All-in-one SIS/LMS/CRM platform suitable for K-12 and higher education, with strong multi-campus and automation capabilities.
-
-
-
-- **[Gradelink](https://www.gradelink.com/)**  
-
-  User-friendly school administration system popular with smaller private and independent schools.
-
-
-
-- **[MyClassCampus, Entab CampusCare, Alma](https://www.myclasscampus.com/)**  
-
-  Regional and specialized school management platforms covering campus operations, academics, and parent portals.
-
-
-
-- **[Other school administration platforms](https://www.powerschool.com/)**  
-
-  Additional SIS and school ERP solutions serving public districts, private schools, and international institutions.
+| Platform | Description | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[PowerSchool](https://www.powerschool.com/)** | Leading K-12 student information system widely used by large districts for enrollment, scheduling, grades, state reporting, and analytics. | ~$5 – $16 per student / year (min. ~$6,000/year contract) | No free tier or free trial (Free live demo on request) |
+| **[FACTS](https://factsmgt.com/)** | Comprehensive private and faith-based K-12 platform covering SIS, tuition management, admissions, and family engagement. | ~$1,000 / year (base platform starting tier) | No free tier or free trial (Free live demo on request) |
+| **[Blackbaud K-12 / Education Management](https://www.blackbaud.com/)** | Cloud suite for private K-12 schools spanning academics, enrollment, tuition, advancement, and school operations. | ~$21,000 / year (starting tier for private school implementations) | No free tier or free trial (Free customized demo on request) |
+| **[Teachmint](https://www.teachmint.com/)** | Mobile-first school and coaching-center platform with classroom tools, digital board integration, and administrative features. | ~$5 per user / year (or ~₹150,000/year base institutional tier) | Free Forever Plan (up to 100 students for individual tutors/teachers with basic classroom tools) |
+| **[Classter](https://www.classter.com/)** | All-in-one SIS/LMS/CRM platform suitable for K-12 and higher education, with strong multi-campus and automation capabilities. | ~$5 – €8.50 per student / year (Core module starting tier) | No free tier or free trial (Free live demo on request) |
+| **[Gradelink](https://www.gradelink.com/)** | User-friendly school administration system popular with smaller private and independent schools. | ~$117 / month (starting plan for up to 50 students, plus setup fee) | Free Demo Account (preloaded with sample data, no duration limit; no permanent free tier) |
+| **[MyClassCampus](https://www.myclasscampus.com/)** | Regional school management platform covering campus operations, academics, and parent portals. | ~₹100 – ₹200 ($1.50 – $2.50) per student / year | 14-day Free Trial (full access to basic administrative features during trial) |
+| **[Entab CampusCare](https://www.entab.in/)** | Enterprise school management ERP covering student records, examination, fee management, and parent portals. | ~₹200 – ₹500 ($2.50 – $6.00) per student / year | No free tier or free trial (Free personalized demo session on request) |
+| **[Alma](https://www.getalma.com/)** | Modern cloud SIS for K-12 schools and districts providing enrollment, gradebooks, attendance, and state reporting. | ~$5,000 / year (starting tier for small school implementations) | No free tier or free trial (Free 1-on-1 demo on request) |
 
 
 
