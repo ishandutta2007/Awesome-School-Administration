@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Card Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(1.08); }
+    }
+    @keyframes floatCap {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(3deg); }
+    }
+    @keyframes floatChart {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes lineFlow {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes shimmerText {
+      0% { stop-color: #6366f1; }
+      50% { stop-color: #ec4899; }
+      100% { stop-color: #6366f1; }
+    }
+    .bg-circle { animation: pulseGlow 6s ease-in-out infinite; transform-origin: center; }
+    .floating-cap { animation: floatCap 4s ease-in-out infinite; transform-origin: center; }
+    .floating-chart { animation: floatChart 5s ease-in-out infinite; transform-origin: center; }
+    .tech-line { stroke-dasharray: 10, 10; animation: lineFlow 10s linear infinite; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Grid Pattern overlay -->
+  <g opacity="0.1" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="80" x2="1200" y2="80" />
+    <line x1="0" y1="160" x2="1200" y2="160" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="320" x2="1200" y2="320" />
+    <line x1="200" y1="0" x2="200" y2="400" />
+    <line x1="400" y1="0" x2="400" y2="400" />
+    <line x1="600" y1="0" x2="600" y2="400" />
+    <line x1="800" y1="0" x2="800" y2="400" />
+    <line x1="1000" y1="0" x2="1000" y2="400" />
+  </g>
+
+  <!-- Animated Glowing Orbs -->
+  <circle class="bg-circle" cx="200" cy="120" r="180" fill="#6366f1" filter="url(#glow)" opacity="0.3" />
+  <circle class="bg-circle" cx="1000" cy="280" r="220" fill="#a855f7" filter="url(#glow)" opacity="0.25" />
+
+  <!-- Decorative Connecting Lines -->
+  <path class="tech-line" d="M 150 320 Q 300 200 450 260 T 800 180 T 1050 100" fill="none" stroke="url(#accentGrad)" stroke-width="3" opacity="0.6" />
+
+  <!-- Main Banner Glass Card Container -->
+  <rect x="80" y="50" width="1040" height="300" rx="20" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5" />
+
+  <!-- Left Side: Educational Cap Icon (Floating) -->
+  <g class="floating-cap" transform="translate(140, 130)">
+    <circle cx="60" cy="60" r="65" fill="#6366f1" opacity="0.2" filter="url(#glow)" />
+    <!-- Mortarboard Icon -->
+    <path d="M 60 25 L 110 50 L 60 75 L 10 50 Z" fill="url(#accentGrad)" />
+    <path d="M 30 62 L 30 85 C 30 98 90 98 90 85 L 90 62" fill="none" stroke="#e0e7ff" stroke-width="4" stroke-linecap="round" />
+    <path d="M 100 52 L 100 95 C 100 98 95 100 95 100" fill="none" stroke="#f472b6" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Title and Subtitle Text -->
+  <g transform="translate(290, 130)">
+    <!-- Main Title -->
+    <text x="0" y="50" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="0.5">
+      Awesome School Administration
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="95" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#cbd5e1">
+      🎓 Curated Ecosystem of SaaS Platforms &amp; Open-Source SIS Systems
+    </text>
+
+    <!-- Feature Pill Badges -->
+    <g transform="translate(0, 125)">
+      <!-- Pill 1: SIS / ERP -->
+      <rect x="0" y="0" width="140" height="34" rx="17" fill="#6366f1" opacity="0.3" stroke="#818cf8" stroke-width="1" />
+      <text x="70" y="22" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#818cf8" text-anchor="middle">🏫 SIS &amp; ERP</text>
+
+      <!-- Pill 2: Open Source -->
+      <rect x="155" y="0" width="150" height="34" rx="17" fill="#a855f7" opacity="0.3" stroke="#c084fc" stroke-width="1" />
+      <text x="230" y="22" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#c084fc" text-anchor="middle">⭐ Open Source</text>
+
+      <!-- Pill 3: SaaS Pricing -->
+      <rect x="320" y="0" width="160" height="34" rx="17" fill="#ec4899" opacity="0.3" stroke="#f472b6" stroke-width="1" />
+      <text x="400" y="22" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#f472b6" text-anchor="middle">📊 SaaS Analytics</text>
+    </g>
+  </g>
+</svg>
